@@ -1,0 +1,23 @@
+name: xyz
+
+channels:
+   - conda-forge
+ 
+dependencies:
+   - python=3.10.6
+
+   # Data Engineering & Analytics
+  - pandas
+ 
+  # Settings, Rest API & CLI
+   - uvicorn
+  - requests
+  - python-dotenv
+
+  # Testing and Code Quality
+  # This section shouldn't be duplicated in setup.py or pyproject.toml
+  - autopep8
+  - pylint
+  - pytest
+  - pytest-cov
+  - mypy
